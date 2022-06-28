@@ -1,0 +1,15 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+#firstsecdiv div img {
+  height: 300px;
+}
+#firstsecdiv {
+  /* background-color: #caf1f5; */
+  background-color: #1a1031;
+}
+.title {
+  color: #feffff;
+  text-align: center;
+}
