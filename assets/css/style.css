@@ -2262,7 +2262,7 @@ section {
 
 }
 
-#whatsapp-icon {
+#gmail-icon {
   position: fixed;
   left: 10px;
   /* top: 500px; */
@@ -2274,7 +2274,7 @@ section {
   height: 50px;
 }
 
-#whatsapp-icon:hover {
+#gmail-icon:hover {
 
   padding: 2px;
   opacity: 0.6;
