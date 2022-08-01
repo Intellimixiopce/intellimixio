@@ -40,8 +40,10 @@
   <!--footer font awesome library-->
 </head>
 
-<body>
-
+<body onload="loader()">
+<!-- loader -->
+  <div id="loader"></div>
+  <!-- loader -->
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
@@ -1034,7 +1036,12 @@
   <script src="assets/js/main.js"></script>
   <a href="mailto:intellimixio.pce19@gmail.com" target="_blank"><img src="assets/img/gmail.png" id="gmail-icon"
       alt="gmail"></a>
-
+<script>
+    var load = document.getElementById("loader");
+    function loader() {
+      load.style.display = 'none';
+    }
+  </script>
 </body>
 
 </html>
