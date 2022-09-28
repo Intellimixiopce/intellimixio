@@ -3,10 +3,12 @@
 
 Welcome to the open source repository of Intellimixio PCE Purnea website
 - Hackoberfest 2022 🚀
+
 ### Introduction
 Intellimixio is the official club of Purnea college of engineering which is responsible for different kinds of activities cum coding, technical fests, sports, cultural events, drama etc on the campus.
 
 ### Live preview: https://www.intellimixio.in/
+### Blogs: https://blog.intellimixio.in/
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=intellimixiopce&label=Profile%20views&color=0e75b6&style=flat" alt="intellimixiopce" /> </p>
 
