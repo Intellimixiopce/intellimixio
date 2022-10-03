@@ -14,7 +14,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color:var(--secondary-color);
+  
 }
 
 a {
@@ -43,6 +43,7 @@ h4,
 h5,
 h6 {
   font-family: "Nunito", sans-serif;
+  color:var(--secondary-color);
 }
 
 /*--------------------------------------------------------------
