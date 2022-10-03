@@ -26,6 +26,4 @@ Intellimixio is the official club of Purnea college of engineering which is resp
 
 
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=intellimixiopce&show_icons=true&locale=en" alt="intellimixiopce" /></p>
-
 ### Thanks for visiting 
