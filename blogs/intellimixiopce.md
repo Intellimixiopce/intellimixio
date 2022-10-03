@@ -1,1 +1,0 @@
-sample blog on web developement
