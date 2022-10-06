@@ -2262,16 +2262,24 @@ section {
 
 }
 
-#gmail-icon {
+.gmail-icon{
   position: fixed;
   left: 10px;
   /* top: 500px; */
   bottom: 9px;
+  background-color:#f2f4fd;
+  padding: 5px;
+  border-radius: 100%;
+  box-shadow: 1px 10px 53px 5px rgba(0,0,0,0.48);
+}
+
+#gmail-icon {
   color: rgb(47, 255, 0);
   text-decoration: none;
   /* font-size: 2.1rem; */
   width: 40px;
   height: 40px;
+  transition: 0.3s;
 }
 
 #gmail-icon:hover {

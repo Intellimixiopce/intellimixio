@@ -38,21 +38,21 @@
   <!--footer font awesome library teams-->
   <script src="https://kit.fontawesome.com/721abd87bb.js" crossorigin="anonymous"></script>
   <!--footer font awesome library-->
-<!--   onesignal push -->
+  <!--   onesignal push -->
   <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-<script>
-  window.OneSignal = window.OneSignal || [];
-  OneSignal.push(function() {
-    OneSignal.init({
-      appId: "5bf13993-46bb-4bc2-b306-27005206b8b9",
+  <script>
+    window.OneSignal = window.OneSignal || [];
+    OneSignal.push(function () {
+      OneSignal.init({
+        appId: "5bf13993-46bb-4bc2-b306-27005206b8b9",
+      });
     });
-  });
-</script>
-<!--   onesignal push -->
+  </script>
+  <!--   onesignal push -->
 </head>
 
 <body onload="loader()">
-<!-- loader -->
+  <!-- loader -->
   <div id="loader"></div>
   <!-- loader -->
   <!-- ======= Header ======= -->
@@ -627,7 +627,7 @@
     <!-- ======= Testimonials Section ======= -->
 
 
-<!-- End Testimonials Section -->
+    <!-- End Testimonials Section -->
 
     <!-- team code -->
 
@@ -780,11 +780,11 @@
 
                 <input type="submit" value="Send message">
 
-<!--                 <button type="submit">Send Message</button> -->
+                <!--                 <button type="submit">Send Message</button> -->
               </div>
-</form>
+            </form>
           </div>
-         
+
 
         </div>
 
@@ -900,9 +900,11 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <a href="mailto:intellimixio.pce19@gmail.com" target="_blank"><img src="assets/img/help.png" id="gmail-icon"
-      alt="gmail"></a>
-<script>
+  <div class="gmail-icon">
+    <a href="mailto:intellimixio.pce19@gmail.com" target="_blank"><img src="assets/img/help.png" id="gmail-icon"
+        alt="gmail"></a>
+  </div>
+  <script>
     var load = document.getElementById("loader");
     function loader() {
       load.style.display = 'none';
