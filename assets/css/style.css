@@ -12,8 +12,8 @@
   --secondary-color: white;
   --tert-color: white;
 }
-#hero .container h2{
-  color: blue;
+#hero .container h1,#hero .container h2{
+  color: var(--tert-color);
 }
 *{
   background-color: var(--primary-color);
@@ -31,6 +31,9 @@
   background-color: var(--primary-color);
 } */
 
+.footer .footer-top .social-links a{
+  color: wheat;
+}
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -89,7 +92,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #4154f1;
+  color:var(--tert-color);
   text-transform: uppercase;
 }
 
@@ -99,7 +102,7 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: #012970;
+  color: var(--tert-color);
 }
 
 @media (max-width: 768px) {
@@ -586,14 +589,14 @@ section {
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #4154f1;
+  color: var(--tert-color);
   text-transform: uppercase;
 }
 
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #012970;
+  color: var(--tert-color);
 }
 
 .about p {
@@ -651,7 +654,7 @@ section {
 
 .values .box h3 {
   font-size: 24px;
-  color: #012970;
+  color: var(--tert-color);
   font-weight: 700;
   margin-bottom: 18px;
 }
@@ -691,7 +694,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #0b198f;
+  color: var(--tert-color);
 }
 
 .counts .count-box p {
@@ -1498,7 +1501,7 @@ section {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #012970;
+  color: var(--tert-color);
   font-weight: 700;
   margin: 20px 0 10px 0;
 }
@@ -2148,7 +2151,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  color: #012970;
+  color: var(--tert-color);
 }
 
 .footer .footer-newsletter form {
@@ -2234,7 +2237,7 @@ section {
 .footer .footer-top .social-links a {
   font-size: 20px;
   display: inline-block;
-  color: rgba(1, 41, 112, 0.5);
+  color: wheat;
   line-height: 0;
   margin-right: 10px;
   transition: 0.3s;
@@ -2247,7 +2250,7 @@ section {
 .footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #012970;
+  color: var(--tert-color);
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -2265,7 +2268,7 @@ section {
 
 .footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #d0d4fc;
+  color:wheat;
   font-size: 12px;
   line-height: 0;
 }
@@ -2281,7 +2284,7 @@ section {
 }
 
 .footer .footer-top .footer-links ul a {
-  color: #013289;
+  color:var(--tert-color);
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
