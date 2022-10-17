@@ -132,17 +132,24 @@ templating frameworks, and session management, and they often promote code
 reuse. Although they often target the development of dynamic websites, they are
 also applicable to static websites.
 
-<!-- ❖ Bootstrap
+ <h1>❖ Bootstrap</h1>
 • Bootstrap is the most popular HTML, CSS, and JavaScript framework for
 developing a responsive and mobile-friendly website.
+ 
 • It is free to download and use.
+ 
 • It is very easy to use. Anybody having basic knowledge of HTML and CSS can use
 Bootstrap.
+ 
 • It is a front-end framework used for easier and faster web development.
+ 
 • It includes HTML and CSS-based design templates for typography, forms, buttons,
 tables, navigation, modals, image carousels, and many others.
+ 
 • It can also use JavaScript plug-ins.
-• It facilitates you to create responsive designs
+ 
+• It facilitates you to create responsive designs.
+ 
 • It is compatible with most browsers like Chrome, Firefox, Internet Explorer, Safari
-and Opera, etc.  -->
+and Opera, etc.
 
