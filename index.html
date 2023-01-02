@@ -77,6 +77,7 @@
           <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
           <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
           <li><a class="getstarted scrollto" href="https://forms.gle/Qomf9xKVWHYsfSvv8" target="_blank">Join Us</a></li>
+          <li> <img src="assets/img/moon.png" id="icon"></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -907,6 +908,18 @@
     var load = document.getElementById("loader");
     function loader() {
       load.style.display = 'none';
+    }
+  </script>
+  <script>
+    var icon=document.getElementById("icon");
+    icon.onclick=function(){
+      document.body.classList.toggle("dark-theme");
+      if(document.body.classList.contains("dark-theme")){
+        icon.src="assets/img/sun.png"
+      }
+      else{
+        icon.src="assets/img/moon.png"
+      }
     }
   </script>
 </body>
