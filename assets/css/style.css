@@ -8,6 +8,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+ background-color: black;
 }
 
 a {
@@ -35,6 +36,7 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+	 background-color: black;
 }
 
 .section-header {
@@ -76,11 +78,13 @@ section {
   min-height: 40px;
   margin-top: 82px;
   color: #fff;
+	 background-color: black;
 }
 
 @media (max-width: 992px) {
   .breadcrumbs {
     margin-top: 57px;
+	   background-color: black;
   }
 }
 
@@ -128,11 +132,11 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
   width: 40px;
   height: 40px;
   border-radius: 4px;
   transition: all 0.4s;
+	 background-color: black;
 }
 
 .back-to-top i {
@@ -157,6 +161,7 @@ section {
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
+	   background-color: black;
   }
 }
 
@@ -167,6 +172,7 @@ section {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
+	 background-color: black;
 }
 
 .header.header-scrolled {
@@ -201,6 +207,7 @@ section {
 */
 .navbar {
   padding: 0;
+	 background-color: black;
 }
 
 .navbar ul {
@@ -441,6 +448,7 @@ section {
   height: 100vh;
   background: url(../img/hero-bg.png) top center no-repeat;
   background-size: cover;
+	 background-color: black;
 }
 
 .hero h1 {
@@ -491,6 +499,7 @@ section {
 @media (min-width: 1024px) {
   .hero {
     background-attachment: fixed;
+	   background-color: black;
   }
 }
 
@@ -498,6 +507,7 @@ section {
   .hero {
     height: auto;
     padding: 120px 0 60px 0;
+	   background-color: black;
   }
 
   .hero .hero-img {
@@ -513,6 +523,7 @@ section {
 @media (max-width: 768px) {
   .hero {
     text-align: center;
+	   background-color: black;
   }
 
   .hero h1 {
@@ -535,8 +546,8 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content {
-  background-color: #f6f9ff;
   padding: 40px;
+	 background-color: black;
 }
 
 .about h3 {
@@ -563,7 +574,7 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
+   background-color: black;
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 
@@ -572,6 +583,7 @@ section {
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
+	 background-color: black;
 }
 
 .about .btn-read-more i {
@@ -593,6 +605,7 @@ section {
   text-align: center;
   transition: 0.3s;
   height: 100%;
+	 background-color: black;
 }
 
 .values .box img {
@@ -621,6 +634,7 @@ section {
 --------------------------------------------------------------*/
 .counts {
   padding: 70px 0 60px;
+	 background-color: black;
 }
 
 .counts .count-box {
