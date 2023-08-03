@@ -8,16 +8,19 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: black;
 }
 
 a {
   color: #4154f1;
   text-decoration: none;
+	background-color: black;
 }
 
 a:hover {
   color: #717ff5;
   text-decoration: none;
+	background-color: black;
 }
 
 h1,
@@ -35,11 +38,13 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+	background-color: black;
 }
 
 .section-header {
   text-align: center;
   padding-bottom: 40px;
+	background-color: black;
 }
 
 .section-header h2 {
